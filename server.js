@@ -62,8 +62,8 @@ app.get("/api/subscribe", async (req, res) => {
     // success_url: `http://localhost:3000/success?plan=${plan}`,
     // cancel_url: "http://localhost:3000/cancel",
 
-    success_url: `https://talkative-iota.vercel.app/success?plan=${plan}`,
-    cancel_url: "https://talkative-iota.vercel.app/cancel",
+    success_url: `https://talkative-mu.vercel.app/success?plan=${plan}`,
+    cancel_url: "https://talkative-mu.vercel.app/cancel",
   });
 
   res.redirect(session.url);
